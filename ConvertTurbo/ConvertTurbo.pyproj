@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>ConvertTurbo</Name>
     <RootNamespace>ConvertTurbo</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>cfjnecro.air cfjnecro_turbo.air</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
